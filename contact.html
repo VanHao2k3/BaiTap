@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/layoutsite.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/jquery/jquery-3.7.1.min.js">
+    <link rel="stylesheet" href="assets/js/layoutsite.js">
+</head>
+<header class="section_header bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 py-3">
+                <img src="assets/images/logo.webp" alt="">
+            </div>
+            <div class="col-lg-8 py-2">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Trang chủ</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#">Thương hiệu nổi bật</a>
+                          <a class="nav-link" href="#">Tin tức</a>
+                          <a class="nav-link" href="#">Hệ thống cửa hàng</a>
+                          <a class="nav-link" href="#">Liên hệ</a>
+                          <a class="nav-link" href="#">Sản phẩm</a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col-lg-2 item-action py-4 d-flex group-action">
+                <div class="item-action px-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="item-action px-2">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="item-action px-2">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="layout-contact">
+        <div class="container">
+            <div class="row">
+                <div class="form-contact">
+					<h2 style="font-size: 18px; text-transform: uppercase; font-weight: bold; margin-top: 15px; color: #494949;">
+						Thông tin liên hệ
+					</h2>
+					<p style="font-size: 14px; color: #656565; font-weight: 400; margin-top: 20px;">
+						Bạn hãy điền nội dung tin nhắn vào form dưới đây và gửi cho chúng tôi.<br>
+Chúng tôi sẽ trả lời bạn sau khi nhận được.
+					</p>
+					<div id="pagelogin">
+						<form method="post" action="/postcontact" id="contact" accept-charset="UTF-8"><input name="FormType" type="hidden" value="contact"><input name="utf8" type="hidden" value="true"><input type="hidden" id="Token-cb5c48c4090c494882054bf80885be3b" name="Token" value="03AFcWeA5e2kca-B02DIc_BqrSil2-Y0fpL34p9TUfvg4buXPcayk5es4kVqHgCyToDHBsSEIjga8iEuRCZbyA44ZMbJsJhrORUfBGlN51Zy-20BoWrRhKrGTcLhSQh5DWd3CPa7-ubAjXc-jl8QlwQKhHjIwQx_1ISGgJzTbC-ecNgaY4aQLN_MdYjgNqSetw1SVhigrLKZI064Ihf8hw9nt99pi8CoUAoQB1KPNi-QF_rXP0C9vEKi3qlZQ36-LK-cAtFUKmCAWtqa1qcBNe0yjeHuA1ZOPrc4EcvtAOjWgVZ895UNEsK5mBRPgcPce4uOoHH8oDlLxi0pOt0etmTDYtkHH365wCznAL0PeNXzQeXWlQmaplvqDKwLyt7Doi2rLdCXDTjdckX1oUx7nMb2URWz_7oc0MFEyGk60AUpP_Y8KmT-rHCMmRt-EcJBVC3yZnKqrLTrcv2dYONPPXP5uMhsNszpNpk3ggZmShm3bLn7uJfY7VPnydZbornBX99l1u-IHvl2ycgaLw5oJ_VedVoQH5I7kTNDnASf_EZuJ1D--3D3mH3YIxPpUiPXckp5zEJgp-tMptcZKukXEw6YERYErpo0j3LzCzaS9yqGX3xchlsvGMkkuzVqnHOvKSAFz5doHv_Wik_vBBQRNIG1WQwZ_mFdlbnyz_cw_tLr00cO7age5qsV9rhod6j94QFnp1ltnTLXX28H7r_nrns8Ao2eC8S3okQA"><script src="https://www.google.com/recaptcha/api.js?render=6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK"></script><script>grecaptcha.ready(function() {grecaptcha.execute("6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK", {action: "contact"}).then(function(token) {document.getElementById("Token-cb5c48c4090c494882054bf80885be3b").value = token});});</script>
+                            <div class="group_contact">
+                                <input placeholder="Họ và tên" type="text" class="form-control  form-control-lg" required="" value="" name="contact[Name]">
+                                <div class="row">
+                                    <div class="col-lg-6 md-6 col-12">
+                                        <input type="number" placeholder="Số điện thoại" name="contact[phone]" class="form-control form-control-lg" required="">
+                                    </div>
+                                    <div class="col-lg-6 md-6 col-12">
+                                        <input placeholder="Email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required="" id="email1" class="form-control form-control-lg" value="" name="contact[email]">
+                                    </div>
+                                </div>
+                                <textarea placeholder="Nội dung" name="contact[body]" id="comment" class="form-control content-area form-control-lg" rows="5" required=""></textarea>
+                                <button style="background-color: #656565; color: black;" type="submit" class="btn-lienhe">Gửi tin nhắn</button>
+                            </div>
+						</form>
+					</div>
+				</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h4 class="title-footer no-menu">Về Ego Helios</h4>
+                    <div class="item">
+                       <div class="icon">
+                            <i class="fa-regular fa-map"></i>
+                        <i class="font-monospace">Xuân Thủy, Hà Nội</i>
+                       </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:support@sapo.vn" title="Gửi mail">support@sapo.vn</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                            <a class="fone" href="tel:0364199361" title="Gọi ngay 0364199361">0364199361</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon mapsico">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a href="danh-sach-cua-hang" title="Hệ thống cửa hàng">Hệ thống cửa hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h4 class="title-footer arrow current">
+                        Chính sách
+                    </h4>
+                    <ul class="list-menu current">
+                        <li><a href="/"></a>Chính sách bán hàng</li>
+                        <li><a href="/"></a>Chính sách mua hàng</li>
+                        <li><a href="/"></a>Chính sách đổi trả</li>
+                        <li><a href="/"></a>Chính sách đặc biệt</li>
+                        <li><a href="/"></a>Chính sách Affiliate</li>
+                        <li><a href="/"></a>Chính sách đại lý</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <h4 class="title-footer arrow current">
+                        Dịch Vụ
+                    </h4>
+                    <ul class="list-menu current">
+                        <li><a href="/"></a>Dịch vụ bảo trì</li>
+                        <li><a href="/"></a>Dịch vụ EgoCare</li>
+                        <li><a href="/"></a>Dịch vụ hàng</li>
+                        <li><a href="/"></a>Dịch vụ vận chuyển</li>
+                        <li><a href="/"></a>Dịch vụ sau bán</li>
+                        <li><a href="/"></a>Dịch vụ mua lại</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h4>Giờ mở cửa</h4>
+                    <p>Từ 9:00 - 21:30 tất cả các ngày trong tuần (bao gồm cả các ngày lễ, ngày Tết).</p>
+                    <h4>Góp ý kiến, khiếu nại</h4>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                            <a class="fone" href="tel:19006750" title="Gọi ngay 19006750">1900 6750</a>
+                        </div>
+                    </div>
+                    <div class="form-subscribe d-flex">
+                        <h4>Nhận khuyến mãi</h4>
+                        <div class="formchip" id="formchimp">
+                            <form id="mc-form" class="newsletter-form" data-toggle="validator" action="https://gmail.us2.list-manage.com/subscribe/post-json?u=ef7f65e3be67e30ff1c4bd591&amp;id=a7430e9bc5">
+                                <div class="input-group">
+                                    <input aria-label="Địa chỉ Email" type="email" class="form-control" placeholder="Nhập email của bạn" name="EMAIL" required="" autocomplete="off">
+                                    <button class="btn" type="submit" aria-label="Đăng kí" name="subscribe">
+                                        Đăng kí
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="mailchimp-alerts">
+                                <div class="mailchimp-submitting"></div>
+                                <div class="mailchimp-success"></div>
+                                <div class="mailchimp-error"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright text-center">
+                    @ Bản quyền thuộc về Ego Corp | Cung cấp bởi 
+                     <a href="https://www.sapo.vn/?utm_campaign=cpn:kho_theme-plm:footer&amp;utm_source=Tu_nhien&amp;utm_medium=referral&amp;utm_content=fm:text_link-km:-sz:&amp;utm_term=&amp;campaign=kho_theme-sapo" rel="noopener" title="Sapo" target="_blank">Sapo</a> 
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/layoutsite.js"></script>
+</body>
+</html>
